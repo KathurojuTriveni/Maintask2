@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the best tourist destinations with our guide.">
+    <meta name="keywords" content="tourism, travel, vacation, destinations, explore">
+    <meta name="author" content="Tourism Guide">
+    <title>Explore the World - Tourism Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Explore</div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Explore the World</h1>
+        <p>Your ultimate guide to the best travel destinations across the globe.</p>
+        <img src="C:\Users\keert\OneDrive\Desktop\mainflow\images.jpg" alt="World Travel Banner" class="hero-image">
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2>Top Destinations</h2>
+        <p>Discover breathtaking places to visit around the world:</p>
+        <ul>
+            <li>Paris, France - The City of Light and Love.</li>
+            <li>Bali, Indonesia - A tropical paradise.</li>
+            <li>New York, USA - The city that never sleeps.</li>
+            <li>Cape Town, South Africa - A blend of nature and urban beauty.</li>
+        </ul>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            At Explore the World, we are passionate about helping travelers find the best destinations, plan their trips, and experience the wonders of the world. Our team consists of seasoned travel experts dedicated to bringing you reliable and inspiring travel guides.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out to us using the details below:</p>
+        <address>
+            <p>Email: info@exploretheworld.com</p>
+            <p>Phone: +1-234-567-890</p>
+            <p>Address: 123 Travel St, Adventure City, World</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Explore the World - All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Toggle menu for small screens
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
